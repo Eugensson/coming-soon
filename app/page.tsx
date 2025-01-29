@@ -3,7 +3,7 @@ import Clock from "@/components/clock";
 const Home = () => {
   return (
     <main className="relative container max-w-[1600px] h-screen overflow-hidden">
-      <div className="absolute w-full h-full bg-[rgba(0,0,0,0.90)]" />
+      <div className="absolute w-full h-full bg-[rgba(0,0,0,0.7)]" />
       <video autoPlay loop muted className="object-cover w-full h-full">
         <source src="/ocean.mp4" type="video/mp4" />
         Your browser does not support the video tag.
